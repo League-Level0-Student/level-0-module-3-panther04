@@ -15,7 +15,7 @@ public class ShinyObjects {
 		// 3. Play the sound that many times
 
 		// 1. Call the method below
-
+playMisterZee();
 	}
 
 	public static void playMisterZee() {
