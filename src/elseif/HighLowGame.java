@@ -14,6 +14,7 @@ public class HighLowGame {
 		int random = new Random().nextInt(100);
 		
 		
+		
 		// 2. Print out the random variable above
 		
 		System.out.println(random);
@@ -33,13 +34,13 @@ public class HighLowGame {
 			
 			// 7. if the guess is high
 			else if(me>random) {
-			JOptionPane.showMessageDialog(null,"Are you high daddy");	
+			JOptionPane.showMessageDialog(null,"Your are to high");	
 			}
 				// 8. tell them it's too high
 			
 			// 9. if the guess is low
 			else if(me<random) {
-				JOptionPane.showMessageDialog(null,"You are soooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo low");
+				JOptionPane.showMessageDialog(null," Not even close");
 			}
 				// 10. tell them it's too low
 
